@@ -95,45 +95,43 @@ function LandingPage() {
           <div className="w-full flex justify-center items-center bg-transparent overflow-visible">
             <img
               id="hero-lcp"
-              src={womanMakingSachets.url}
-              alt="Mulher confeccionando Trouxinhas Aromáticas"
-              width="450"
-              height="600"
+              src={heroMockup.url}
+              alt="Figurinhas eleitorais no WhatsApp e edição no Canva"
+              width="640"
+              height="427"
               loading="eager"
               decoding="async"
               {...({ fetchpriority: "high" } as Record<string, string>)}
-              className="block w-full max-w-[450px] aspect-[3/4] rounded-[18px] bg-transparent object-cover object-center shadow-lg"
+              className="block w-full max-w-[640px] aspect-[3/2] rounded-[18px] bg-transparent object-cover object-center shadow-lg"
             />
           </div>
           <h1 className="mt-8 font-bold max-w-3xl text-balance px-4 sm:px-0" style={{ fontSize: "28px", lineHeight: "1.2", color: "var(--text)" }}>
-            Fature seus primeiros <span className="highlight">R$300,00</span> criando Trouxinhas Aromáticas, mesmo que você{" "}
-            <span className="highlight">Nunca Tenha Feito Artesanato.</span>
+            50 Figurinhas Eleitorais Prontas Para <span className="highlight">Personalizar no Canva</span> e Usar no WhatsApp <span className="highlight">Ainda Hoje</span>
           </h1>
           <p className="mt-6 max-w-2xl text-muted-foreground text-[15px] leading-[1.6] sm:text-[17px] md:text-lg text-pretty px-4 sm:px-0">
-            Descubra como criar trouxinhas perfumadas que parecem produtos de luxo e comece a ter sua própria renda, sem precisar pedir dinheiro ao marido.
+            Troque foto, nome, número, partido, cores e textos pelo Canva gratuito e tenha um pack personalizado para sua comunicação eleitoral — sem precisar criar cada figurinha do zero.
           </p>
           <ul className="mt-4 flex flex-col items-start gap-2 text-left text-muted-foreground text-[15px] leading-[1.5] sm:text-[16px] px-4 sm:px-0 sm:mx-auto">
-            <li>✅ Sem precisar de máquina de costura</li>
-            <li>✅ Materiais baratos e fáceis</li>
-            <li>✅ Trabalhe no conforto da sua casa</li>
-            <li>✅ Ideal para quem busca uma renda</li>
+            <li>✅ 50 modelos</li>
+            <li>✅ 100% editáveis</li>
+            <li>✅ Acesso vitalício</li>
           </ul>
           <a
             href="#oferta"
             className="btn-primary mt-8 inline-flex items-center justify-center uppercase tracking-wider cta-fx"
           >
-            QUERO COMEÇAR AGORA
+            QUERO MINHAS 50 FIGURINHAS
           </a>
-          <p className="mt-4 text-xs text-muted-foreground">Acesso imediato • Garantia de 7 dias</p>
+          <p className="mt-4 text-xs text-muted-foreground">Personalize no Canva gratuito e baixe quantas vezes precisar.</p>
         </div>
       </section>
 
       {/* Testimonials */}
       <section className="bg-background-soft section-pad py-[64px] md:py-[80px] lg:py-[100px] overflow-hidden">
         <div className="mx-auto max-w-6xl">
-          <h2 className="text-center font-semibold" style={{ fontSize: "24px", lineHeight: "1.2" }}>Elas começaram. Fizeram suas primeiras trouxinhas.<br />E estes são alguns dos resultados.</h2>
+          <h2 className="text-center font-semibold" style={{ fontSize: "24px", lineHeight: "1.2" }}>Veja como o Pack de Figurinhas Eleitoral está facilitando a comunicação de quem trabalha com campanhas</h2>
           <p className="mt-4 text-center text-muted-foreground max-w-2xl mx-auto px-4">
-            Você não precisa ser artesã profissional para começar. Veja como pessoas comuns estão transformando tecidos e essências em uma nova fonte de renda.
+            Modelos prontos para diferentes momentos da campanha, fáceis de editar e rápidos de colocar em uso.
           </p>
           <div className="relative mt-10 mx-auto w-full overflow-hidden">
             <div className="flex w-max animate-[marquee_40s_linear_infinite] gap-6">
@@ -151,7 +149,7 @@ function LandingPage() {
               ))}
             </div>
             <p className="mt-8 text-center font-bold highlight italic">
-              A próxima pode ser a sua.
+              A sua campanha pode ser a próxima.
             </p>
           </div>
         </div>
@@ -160,7 +158,10 @@ function LandingPage() {
       {/* Modules */}
       <section className="section-pad py-[64px] md:py-[80px] lg:py-[100px]">
         <div className="mx-auto max-w-6xl">
-          <h2 className="text-center font-semibold" style={{ fontSize: "24px", lineHeight: "1.2" }}>Do absoluto zero às suas primeiras<br />Trouxinhas Aromáticas prontas para vender</h2>
+          <h2 className="text-center font-semibold" style={{ fontSize: "24px", lineHeight: "1.2" }}>Tudo pronto para você personalizar e começar a usar ainda hoje</h2>
+          <p className="mt-4 text-center text-muted-foreground max-w-2xl mx-auto px-4">
+            Você recebe acesso aos modelos pelo Canva e pode adaptar cada figurinha à identidade da campanha.
+          </p>
           <ModulesCarousel />
         </div>
       </section>
@@ -168,7 +169,7 @@ function LandingPage() {
       {/* Bonuses */}
       <section className="section-pad bg-background-soft py-[64px] md:py-[80px] lg:py-[100px]">
         <div className="mx-auto max-w-6xl">
-          <h2 className="text-center font-semibold" style={{ fontSize: "24px", lineHeight: "1.2" }}>Fazer é só o começo.<br />Agora você precisa saber vender.</h2>
+          <h2 className="text-center font-semibold" style={{ fontSize: "24px", lineHeight: "1.2" }}>Leve a Oferta Completa e desbloqueie mais 3 materiais para sua campanha</h2>
           <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
             {bonuses.map((b) => (
               <div key={b.title} className="rounded-[10px] bg-card p-6 flex flex-col items-start text-left">
@@ -194,20 +195,23 @@ function LandingPage() {
       {/* Offers */}
       <section id="oferta" className="section-pad py-[64px] md:py-[80px] lg:py-[100px]">
         <div className="mx-auto max-w-5xl">
-          <h2 className="text-center font-semibold" style={{ fontSize: "24px", lineHeight: "1.2" }}>Escolha como você quer começar.</h2>
+          <h2 className="text-center font-semibold" style={{ fontSize: "24px", lineHeight: "1.2" }}>Escolha como você quer começar</h2>
           <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="rounded-[14px] border border-border bg-[#FFFDFC] p-8 flex flex-col items-start text-left shadow-sm">
               <h3 className="text-2xl font-bold w-full text-center">Oferta Simples</h3>
-              <p className="mt-4 font-semibold w-full text-center">Para quem quer apenas aprender a fazer:</p>
+              <p className="mt-4 font-semibold w-full text-center">Pack de Figurinhas Eleitoral</p>
               <ul className="mt-2 divide-y divide-border text-muted-foreground w-full">
-                <li className="flex items-center gap-2 py-2"><span>✅</span> <span>Curso Completo</span></li>
-                <li className="flex items-center gap-2 py-2"><span>✅</span> <span>Acesso Vitalício + atualizações</span></li>
+                <li className="flex items-center gap-2 py-2"><span>✅</span> <span>50 figurinhas eleitorais</span></li>
+                <li className="flex items-center gap-2 py-2"><span>✅</span> <span>Modelos 100% editáveis</span></li>
+                <li className="flex items-center gap-2 py-2"><span>✅</span> <span>Edição pelo Canva gratuito</span></li>
               </ul>
               <div className="mt-6 w-full text-center">
-                <div className="text-sm font-bold">Apenas</div>
+                <div className="text-sm line-through decoration-2" style={{ textDecorationColor: "var(--price-strike)" }}>De R$ 29,90</div>
+                <div className="text-sm font-bold">Hoje por</div>
                 <div className="whitespace-nowrap">
                   <span className="text-4xl font-bold text-primary">R$ 9,90</span>
                 </div>
+                <div className="mt-2 text-xs text-muted-foreground">Pagamento único.</div>
               </div>
               <button
                 type="button"
@@ -224,27 +228,33 @@ function LandingPage() {
               </span>
               <div className="offer-featured p-8 flex flex-col items-start text-left">
                 <h3 className="text-2xl font-bold w-full text-center">Oferta Completa</h3>
-                <p className="mt-4 font-semibold w-full text-center">Para quem quer fazer para vender:</p>
+                <p className="mt-4 font-semibold w-full text-center">Tudo da Oferta Simples + os materiais extras</p>
                 <ul className="mt-2 divide-y divide-border text-muted-foreground w-full">
-                  <li className="flex items-center gap-2 py-2"><span>✅</span> <span>Curso Completo</span></li>
-                  <li className="flex items-center gap-2 py-2"><span>✅</span> <span>Acesso Vitalício + atualizações</span></li>
-                  <li className="flex items-center gap-2 py-2"><span>🎁</span> <span>Bônus 01 <span className="text-xs line-through" style={{ textDecorationColor: "var(--price-strike)" }}>(R$ 47,00)</span></span></li>
-                  <li className="flex items-center gap-2 py-2"><span>🎁</span> <span>Bônus 02 <span className="text-xs line-through" style={{ textDecorationColor: "var(--price-strike)" }}>(R$ 67,00)</span></span></li>
-                  <li className="flex items-center gap-2 py-2"><span>🎁</span> <span>Bônus 03 <span className="text-xs line-through" style={{ textDecorationColor: "var(--price-strike)" }}>(R$ 37,00)</span></span></li>
+                  <li className="flex items-center gap-2 py-2"><span>✅</span> <span>50 figurinhas eleitorais</span></li>
+                  <li className="flex items-center gap-2 py-2"><span>✅</span> <span>Modelos 100% editáveis</span></li>
+                  <li className="flex items-center gap-2 py-2"><span>✅</span> <span>Canva gratuito</span></li>
+                  <li className="flex items-center gap-2 py-2"><span>✅</span> <span>Acesso vitalício</span></li>
+                  <li className="flex items-center gap-2 py-2"><span>🎁</span> <span>Pack de Frases Eleitorais <span className="text-xs line-through" style={{ textDecorationColor: "var(--price-strike)" }}>(R$ 9,90)</span></span></li>
+                  <li className="flex items-center gap-2 py-2"><span>🎁</span> <span>Guia de Personalização Rápida <span className="text-xs line-through" style={{ textDecorationColor: "var(--price-strike)" }}>(R$ 9,90)</span></span></li>
+                  <li className="flex items-center gap-2 py-2"><span>🎁</span> <span>Novas Figurinhas Eleitorais <span className="text-xs line-through" style={{ textDecorationColor: "var(--price-strike)" }}>(R$ 19,90)</span></span></li>
+                  <li className="flex items-center gap-2 py-2"><span>✅</span> <span>Atualizações</span></li>
+                  <li className="flex items-center gap-2 py-2"><span>✅</span> <span>Suporte pelo WhatsApp</span></li>
                 </ul>
                 <div className="mt-6 w-full text-center">
-                  <div className="text-sm line-through decoration-2" style={{ textDecorationColor: "var(--price-strike)" }}>De R$ 170,90</div>
-                  <div className="text-sm font-bold">Hoje apenas</div>
+                  <div className="text-sm line-through decoration-2" style={{ textDecorationColor: "var(--price-strike)" }}>Valor percebido: R$ 69,60</div>
+                  <div className="text-sm font-bold">Hoje por apenas</div>
                   <div className="whitespace-nowrap">
                     <span className="text-4xl font-bold text-primary">R$ 19,90</span>
                   </div>
+                  <div className="mt-2 text-xs text-muted-foreground">Pagamento único.</div>
                 </div>
                 <a
                   href="https://pay.cakto.com.br/fj79seh_973428"
                   className="btn-primary mt-6 inline-flex items-center justify-center uppercase tracking-wider cta-fx w-full"
                 >
-                  OFERTA COMPLETA
+                  QUERO A OFERTA COMPLETA
                 </a>
+                <p className="mt-3 w-full text-center text-xs text-muted-foreground">Receba o acesso após a confirmação da compra.</p>
               </div>
             </div>
 
@@ -264,10 +274,11 @@ function LandingPage() {
             height={144}
             className="mx-auto h-32 w-32 md:h-36 md:w-36 object-contain"
           />
-          <h2 className="mt-6 font-semibold" style={{ fontSize: "24px", lineHeight: "1.2" }}>Garantia Incondicional de 7 Dias.</h2>
+          <h2 className="mt-6 font-semibold" style={{ fontSize: "24px", lineHeight: "1.2" }}>Você tem 7 dias para acessar e avaliar</h2>
           <p className="mt-2 text-muted-foreground" style={{ fontSize: "16px", lineHeight: "24px" }}>
-            Se em até 7 dias você assistir às aulas do Método Trouxinhas Aromáticas Passo a Passo e achar que ele não é para você, eu devolvo 100% do seu dinheiro. Sem perguntas e sem letras miúdas. O risco é todo meu.
+            Sua compra está protegida por uma garantia de 7 dias. Acesse o material, conheça os modelos e veja se o Pack de Figurinhas Eleitoral atende ao que foi apresentado nesta página. Caso decida que o produto não é para você dentro do prazo da garantia, solicite o reembolso conforme as condições aplicáveis à compra.
           </p>
+          <p className="mt-4 text-sm font-bold uppercase tracking-wider highlight">Risco reduzido para você começar hoje</p>
         </div>
       </section>
 
@@ -294,13 +305,13 @@ function LandingPage() {
       >
         <div className="mx-auto max-w-3xl px-6 text-center" style={{ fontSize: "15px", lineHeight: "1.75" }}>
           <p className="mb-5 md:mb-6">
-            Copyright © 2026 | Método Trouxinhas Aromáticas Passo a Passo | Todos os direitos reservados.
+            Copyright © 2026 | Pack de Figurinhas Eleitoral | Todos os direitos reservados.
           </p>
           <p className="mb-5 md:mb-6">
             Este site não é afiliado, administrado ou patrocinado pela Meta Platforms, Facebook, Instagram, WhatsApp ou qualquer uma de suas empresas.
           </p>
           <p>
-            Os resultados apresentados são individuais e podem variar de pessoa para pessoa. Não garantimos resultados específicos, pois o sucesso depende da dedicação, prática e esforço de cada aluno.
+            Os resultados apresentados são individuais e podem variar. Não garantimos resultados específicos, pois o desempenho depende da aplicação e do contexto de cada campanha.
           </p>
 
           <div className="mx-auto my-10 h-px w-full max-w-xl" style={{ backgroundColor: "#FFFFFF", opacity: 0.1 }} />
@@ -335,33 +346,33 @@ function LandingPage() {
             </button>
             {/* Cabeçalho */}
             <div className="px-5 py-4 sm:px-6 sm:py-5 text-white" style={{ background: "var(--brand)" }}>
-              <div className="text-xl sm:text-2xl font-bold tracking-wide" style={{ color: "#4A2E1F" }}>🎁 ESPERE!</div>
+              <div className="text-xl sm:text-2xl font-bold tracking-wide" style={{ color: "#4A2E1F" }}>🎁 ESPERA! ANTES DE FICAR APENAS COM O PACK...</div>
               <div className="mt-1 text-[13px] sm:text-sm font-medium" style={{ color: "#4A2E1F", opacity: 0.9 }}>
-                Você desbloqueou uma oferta exclusiva.
+                Por mais R$ 10, leve a Oferta Completa
               </div>
             </div>
 
             <div className="px-[18px] pt-5 pb-7 sm:px-6 sm:py-6 text-left">
               {/* Texto */}
               <p className="text-[14px] sm:text-[15px] leading-[1.6]" style={{ color: "#4A2F26" }}>
-                Você escolheu o <strong>Plano Básico</strong>.
-                <br />
-                Antes de finalizar, me responda uma coisa:
+                Você já vai levar as <strong>50 figurinhas</strong>.
               </p>
               <p className="mt-2.5 text-[14px] sm:text-[15px] leading-[1.6]" style={{ color: "#4A2F26" }}>
-                <strong>Depois que suas primeiras peças estiverem prontas, você vai saber quanto cobrar para ter lucro e onde encontrar os primeiros clientes?</strong>
+                <strong>Mas adicionando apenas R$ 10, você também desbloqueia os 3 bônus, recebe as atualizações liberadas durante o período eleitoral e ainda conta com suporte pelo WhatsApp para acesso e edição.</strong>
               </p>
               <p className="mt-2.5 text-[14px] sm:text-[15px] leading-[1.6]" style={{ color: "#4A2F26" }}>
-                Por apenas R$ 5,00 a mais, você garante o Kit Completo Para Vender.
+                Oferta Completa com tudo incluído:
               </p>
 
               {/* Checklist */}
               <ul className="mt-4 space-y-2 rounded-[12px] bg-white p-3 sm:p-4 text-[15px] sm:text-[14px]" style={{ border: "1px solid #EFE5DB", color: "#4A2F26" }}>
-                <li className="flex items-start gap-2"><span style={{ color: "#16a34a" }}>✔</span><span>Curso Completo</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#16a34a" }}>✔</span><span>Acesso Vitalício + atualizações</span></li>
-                <li className="flex items-start gap-2"><span>🎁</span><span>Bônus 01</span></li>
-                <li className="flex items-start gap-2"><span>🎁</span><span>Bônus 02</span></li>
-                <li className="flex items-start gap-2"><span>🎁</span><span>Bônus 03</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#16a34a" }}>✔</span><span>50 figurinhas editáveis</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#16a34a" }}>✔</span><span>Acesso vitalício ao material adquirido</span></li>
+                <li className="flex items-start gap-2"><span>🎁</span><span>Pack de Frases Eleitorais</span></li>
+                <li className="flex items-start gap-2"><span>🎁</span><span>Guia de Personalização Rápida</span></li>
+                <li className="flex items-start gap-2"><span>🎁</span><span>Novas Figurinhas Eleitorais</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#16a34a" }}>✔</span><span>Atualizações durante o período eleitoral</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#16a34a" }}>✔</span><span>Suporte pelo WhatsApp</span></li>
               </ul>
 
               {/* Selo + Preço */}
@@ -370,12 +381,12 @@ function LandingPage() {
                   className="inline-block rounded-full px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-white"
                   style={{ background: "#D6A54C" }}
                 >
-                  Oferta Exclusiva
+                  Upgrade Especial
                 </span>
-                <div className="mt-3 text-xs line-through" style={{ color: "#A0857A" }}>De R$170,90</div>
-                <div className="text-sm font-semibold" style={{ color: "#4A2F26" }}>Hoje apenas</div>
+                <div className="mt-3 text-xs line-through" style={{ color: "#A0857A" }}>De R$ 19,90</div>
+                <div className="text-sm font-semibold" style={{ color: "#4A2F26" }}>Upgrade especial</div>
                 <div className="mt-1 text-[44px] sm:text-5xl font-extrabold leading-none" style={{ color: "var(--brand)" }}>
-                  R$14,90
+                  R$ 14,90
                 </div>
               </div>
 
@@ -385,14 +396,14 @@ function LandingPage() {
                   href="https://pay.cakto.com.br/zftygb8"
                   className="btn-primary w-full inline-flex items-center justify-center uppercase tracking-wider"
                 >
-                  SIM! QUERO DESBLOQUEAR TUDO
+                  SIM, QUERO APROVEITAR O UPGRADE
                 </a>
                 <a
                   href="https://pay.cakto.com.br/nvc9952"
                   className="w-full inline-flex items-center justify-center rounded-[16px] bg-white px-6 py-3 text-sm font-medium transition hover:bg-[#F7EFE7]"
                   style={{ border: "1px solid #D8C7BA", color: "#5E4A42" }}
                 >
-                  Continuar apenas com o Plano de R$ 9,90
+                  Não, quero somente a Oferta Simples
                 </a>
               </div>
             </div>
@@ -459,7 +470,7 @@ function ModuleCard({ module: m, cover }: { module: { n: number; title: string; 
   return (
     <div className="rounded-[10px] bg-card p-6 flex flex-col items-start text-left">
       <img src={cover} alt={`Módulo ${m.n} - ${m.title}`} loading="lazy" decoding="async" width={1024} height={1024} className="w-full max-w-xs aspect-square mx-auto rounded-[10px] object-cover" />
-      <div className="mt-4 text-sm font-semibold highlight">Módulo {String(m.n).padStart(2, "0")}</div>
+      <div className="mt-4 text-sm font-semibold highlight">Módulo {String(m.n).padStart(2, "0")} — {moduleLabels[m.n - 1]}</div>
       <h3 className="mt-2 text-xl md:text-3xl font-semibold">{m.title}</h3>
       <button
         type="button"

@@ -19,22 +19,22 @@ import bonus1Img from "@/assets/bonus-01.png.asset.json";
 import bonus2Img from "@/assets/bonus-02.png.asset.json";
 import bonus3Img from "@/assets/bonus-03.png.asset.json";
 import guaranteeBadge from "@/assets/7-dias-garantia.png.asset.json";
-import womanMakingSachets from "@/assets/woman-making-sachets.png.asset.json";
+import heroMockup from "@/assets/hero-figurinhas.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Método Trouxinhas Aromáticas Passo a Passo" },
+      { title: "50 Figurinhas Eleitorais Editáveis no Canva" },
       {
         name: "description",
         content:
-          "Do absoluto zero às suas primeiras Trouxinhas Aromáticas prontas para vender e faturar seus primeiros R$300,00.",
+          "Pack com 50 figurinhas eleitorais 100% editáveis no Canva gratuito. Troque foto, nome, número, partido, cores e textos e use no WhatsApp hoje.",
       },
-      { property: "og:title", content: "Método Trouxinhas Aromáticas Passo a Passo" },
+      { property: "og:title", content: "50 Figurinhas Eleitorais Editáveis no Canva" },
       {
         property: "og:description",
         content:
-          "Do absoluto zero às suas primeiras Trouxinhas Aromáticas prontas para vender e faturar seus primeiros R$300,00.",
+          "Pack com 50 figurinhas eleitorais 100% editáveis no Canva gratuito. Troque foto, nome, número, partido, cores e textos e use no WhatsApp hoje.",
       },
     ],
   }),
@@ -56,28 +56,27 @@ const IMG = {
 };
 
 const modules = [
-  { n: 1, title: "O Segredo da Base Perfeita", desc: "Aprenda a criar a base ideal para que sua trouxinha tenha o caimento perfeito e encante logo no primeiro olhar." },
-  { n: 2, title: "Aromas que Vendem Sozinhos", desc: "Descubra a combinação exata de fragrâncias que grudam na memória dos seus clientes e fazem eles quererem mais." },
-  { n: 3, title: "Acabamentos de Luxo", desc: "O passo a passo para fazer laços e finalizações que transformam materiais simples em peças de alto valor percebido." },
-  { n: 4, title: "Produção em Escala", desc: "Como organizar seu tempo e materiais para produzir dezenas de trouxinhas em poucas horas, sem perder a qualidade." },
-  { n: 5, title: "Onde Encontrar Materiais Baratos", desc: "Minha lista pessoal de onde comprar tecidos, fitas e essências pelo menor preço para garantir seu lucro." },
-  { n: 6, title: "Sua Primeira Venda em 48 Horas", desc: "Um plano de ação simples para você oferecer suas trouxinhas e fazer suas primeiras vendas assim que terminar o curso." },
+  { n: 1, title: "Sua campanha com a sua cara", desc: "Tenha acesso a 50 modelos eleitorais organizados para diferentes situações. Personalize foto, nome, número, partido, cores e textos sem precisar começar uma arte do zero." },
+  { n: 2, title: "Edite mesmo sem Canva Pro", desc: "Abra o link, escolha sua figurinha e faça as alterações diretamente no Canva gratuito. Sem software complicado e sem precisar dominar ferramentas profissionais de design." },
+  { n: 3, title: "Do Canva para sua comunicação", desc: "Terminou de personalizar? Baixe os arquivos e deixe suas figurinhas prontas para usar no WhatsApp e em outros canais compatíveis com o formato." },
 ];
 
-const moduleCovers = [mod01, mod02, mod03, mod04, mod05, mod06];
+const moduleLabels = ["50 Figurinhas Editáveis", "Personalize no Canva", "Edite, Baixe e Use"];
+
+const moduleCovers = [mod01, mod02, mod03];
 
 const bonuses = [
-  { img: IMG.bonus1, tag: "🎁 Bônus 01 - Incluso na oferta completa", title: "Calculadora do Preço Certo", desc: "Nunca mais tenha dúvida de quanto cobrar. Coloque o custo do material e ela te dá o preço final com lucro.", value: "R$ 47,00" },
-  { img: IMG.bonus2, tag: "🎁 Bônus 02 - Incluso na oferta completa", title: "Catálogo Pronto Para Vender", desc: "Fotos profissionais e modelos de textos para você postar e já começar a receber encomendas.", value: "R$ 67,00" },
-  { img: IMG.bonus3, tag: "🎁 Bônus 03 - Incluso na oferta completa", title: "Primeiros Clientes no WhatsApp", desc: "O que falar e como oferecer para pessoas próximas sem parecer que está 'empurrando' nada.", value: "R$ 37,00" },
+  { img: IMG.bonus1, tag: "🎁 Bônus 01 - Incluso na Oferta Completa", title: "Pack de Frases Eleitorais", desc: "Pare de perder tempo pensando no que escrever. Biblioteca de frases e chamadas para adaptar às figurinhas e acelerar a criação das mensagens da campanha.", value: "R$ 9,90" },
+  { img: IMG.bonus2, tag: "🎁 Bônus 02 - Incluso na Oferta Completa", title: "Guia de Personalização Rápida", desc: "Deixe os 50 modelos com a identidade da campanha. Um guia objetivo mostrando como trocar foto, nome, número, partido, textos e cores no Canva gratuito.", value: "R$ 9,90" },
+  { img: IMG.bonus3, tag: "🎁 Bônus 03 - Incluso na Oferta Completa", title: "Novas Figurinhas Eleitorais", desc: "Receba novos modelos durante o período eleitoral. A Oferta Completa inclui acesso às atualizações do pack conforme novos modelos forem disponibilizados.", value: "R$ 19,90" },
 ];
 
 const faqs = [
-  { q: "Preciso ter máquina de costura?", a: "Não! As trouxinhas são feitas totalmente à mão com uma técnica simples de montagem." },
-  { q: "Em quanto tempo consigo vender?", a: "Muitas alunas conseguem produzir e vender suas primeiras peças nos primeiros 2 a 3 dias seguindo o método." },
-  { q: "Os materiais são caros?", a: "Pelo contrário. Você usa retalhos de tecidos e materiais que encontra em qualquer armarinho por centavos." },
-  { q: "Como recebo o curso?", a: "O acesso é enviado para o seu e-mail imediatamente após a confirmação do pagamento." },
-  { q: "O acesso é vitalício?", a: "Sim! Você paga uma única vez e tem acesso para sempre, inclusive às futuras atualizações." },
+  { q: "Preciso ter Canva Pro?", a: "Não. Os modelos foram pensados para serem personalizados utilizando o Canva gratuito." },
+  { q: "O que consigo editar nas figurinhas?", a: "Você poderá personalizar elementos como foto, nome, número, partido, cores e textos, adaptando os modelos conforme sua preferência." },
+  { q: "Como recebo as figurinhas depois da compra?", a: "Você receberá o acesso ao material para abrir os modelos no Canva, fazer suas alterações e baixar os arquivos personalizados." },
+  { q: "Preciso saber design para editar?", a: "Não é necessário dominar programas profissionais de design. Os modelos já estão prontos e você parte da estrutura existente para fazer as personalizações no Canva." },
+  { q: "Qual a diferença entre a Oferta Simples e a Completa?", a: "A Oferta Simples entrega o pack principal com as 50 figurinhas e acesso vitalício ao material adquirido. A Oferta Completa adiciona os 3 bônus, atualizações liberadas durante o período eleitoral e suporte pelo WhatsApp para questões de acesso e edição." },
 ];
 
 const testimonials = [depo1.url, depo2.url, depo3.url, depo4.url, depo5.url, depo6.url, depo7.url, depo8.url];

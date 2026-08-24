@@ -12,9 +12,9 @@ import depo5 from "@/assets/prova-5.jpg.asset.json";
 import depo6 from "@/assets/prova-6.jpg.asset.json";
 import depo7 from "@/assets/prova-7.jpg.asset.json";
 
-import bonus1Img from "@/assets/bonus-01.png.asset.json";
-import bonus2Img from "@/assets/bonus-02.png.asset.json";
-import bonus3Img from "@/assets/bonus-03.png.asset.json";
+import bonus1Img from "@/assets/bonus-01-v2.png.asset.json";
+import bonus2Img from "@/assets/bonus-02-v2.png.asset.json";
+import bonus3Img from "@/assets/bonus-03-v2.png.asset.json";
 import guaranteeBadge from "@/assets/7-dias-garantia.png.asset.json";
 import heroMockup from "@/assets/hero-figurinhas-v2.png.asset.json";
 

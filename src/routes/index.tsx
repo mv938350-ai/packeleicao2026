@@ -99,7 +99,7 @@ function LandingPage() {
               loading="eager"
               decoding="async"
               {...({ fetchpriority: "high" } as Record<string, string>)}
-              className="block w-full max-w-[640px] aspect-[3/2] rounded-[18px] bg-transparent object-cover object-center shadow-lg"
+              className="block w-full max-w-[720px] rounded-[18px] bg-transparent object-contain object-center shadow-lg"
             />
           </div>
           <h1 className="mt-8 font-bold max-w-3xl text-balance px-4 sm:px-0" style={{ fontSize: "28px", lineHeight: "1.2", color: "var(--text)" }}>

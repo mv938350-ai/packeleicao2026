@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import mod01 from "@/assets/mod-01.png.asset.json";
 import mod02 from "@/assets/mod-02.png.asset.json";
-import mod03 from "@/assets/mod-03.jpg";
+import mod03 from "@/assets/mod-03.png.asset.json";
 import depo1 from "@/assets/prova-1.jpg.asset.json";
 import depo2 from "@/assets/prova-2.jpg.asset.json";
 import depo3 from "@/assets/prova-3.jpg.asset.json";

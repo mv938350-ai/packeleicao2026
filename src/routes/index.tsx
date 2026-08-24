@@ -249,7 +249,7 @@ function LandingPage() {
                   href="https://pay.cakto.com.br/fj79seh_973428"
                   className="btn-primary mt-6 inline-flex items-center justify-center uppercase tracking-wider cta-fx w-full"
                 >
-                  QUERO A OFERTA COMPLETA
+                  OFERTA COMPLETA
                 </a>
                 <p className="mt-3 w-full text-center text-xs text-muted-foreground">Receba o acesso após a confirmação da compra.</p>
               </div>

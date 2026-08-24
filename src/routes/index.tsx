@@ -60,7 +60,7 @@ const modules = [
 
 const moduleLabels = ["50 Figurinhas Editáveis", "Personalize no Canva", "Edite, Baixe e Use"];
 
-const moduleCovers = [mod01.url, mod02.url, mod03];
+const moduleCovers = [mod01.url, mod02.url, mod03.url];
 
 const bonuses = [
   { img: IMG.bonus1, tag: "🎁 Bônus 01 - Incluso na Oferta Completa", title: "Pack de Frases Eleitorais", desc: "Pare de perder tempo pensando no que escrever. Biblioteca de frases e chamadas para adaptar às figurinhas e acelerar a criação das mensagens da campanha.", value: "R$ 9,90" },

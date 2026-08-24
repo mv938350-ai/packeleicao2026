@@ -180,7 +180,7 @@ html {
   }
 
   html, body, h1, h2, h3, h4, h5, h6, p, button, a, span, li, div, input, textarea, label {
-    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Bricolage Grotesque', 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
   }
 
   body {

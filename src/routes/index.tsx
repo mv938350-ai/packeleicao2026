@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import mod01 from "@/assets/mod-01.png.asset.json";
 import mod02 from "@/assets/mod-02.png.asset.json";
-import mod03 from "@/assets/mod-03.jpg";
+import mod03 from "@/assets/mod-03.png.asset.json";
 import depo1 from "@/assets/prova-1.jpg.asset.json";
 import depo2 from "@/assets/prova-2.jpg.asset.json";
 import depo3 from "@/assets/prova-3.jpg.asset.json";
@@ -60,7 +60,7 @@ const modules = [
 
 const moduleLabels = ["50 Figurinhas Editáveis", "Personalize no Canva", "Edite, Baixe e Use"];
 
-const moduleCovers = [mod01.url, mod02.url, mod03];
+const moduleCovers = [mod01.url, mod02.url, mod03.url];
 
 const bonuses = [
   { img: IMG.bonus1, tag: "🎁 Bônus 01 - Incluso na Oferta Completa", title: "Pack de Frases Eleitorais", desc: "Pare de perder tempo pensando no que escrever. Biblioteca de frases e chamadas para adaptar às figurinhas e acelerar a criação das mensagens da campanha.", value: "R$ 9,90" },

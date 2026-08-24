@@ -314,7 +314,13 @@ function LandingPage() {
 
           <div className="mx-auto my-10 h-px w-full max-w-xl" style={{ backgroundColor: "#FFFFFF", opacity: 0.1 }} />
 
+          <nav className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-10" style={{ fontSize: "14px" }}>
+            <a href="/politica-de-privacidade" className="footer-link" style={{ color: "rgba(255,255,255,0.72)", transition: "color 0.2s" }}>Política de Privacidade</a>
+            <a href="/termos-de-uso" className="footer-link" style={{ color: "rgba(255,255,255,0.72)", transition: "color 0.2s" }}>Termos de Uso</a>
+            <a href="/politica-de-reembolso" className="footer-link" style={{ color: "rgba(255,255,255,0.72)", transition: "color 0.2s" }}>Política de Reembolso</a>
+          </nav>
         </div>
+        <style>{`.footer-link:hover{color:#FFFFFF !important;}`}</style>
       </footer>
 
       {showUpsell && (

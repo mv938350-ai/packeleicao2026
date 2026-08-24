@@ -113,12 +113,13 @@ function LandingPage() {
             <li>✅ 100% editáveis</li>
             <li>✅ Acesso vitalício</li>
           </ul>
-          <a
-            href="#oferta"
+          <button
+            type="button"
+            onClick={() => document.getElementById('oferta')?.scrollIntoView({ behavior: 'smooth' })}
             className="btn-primary mt-8 inline-flex items-center justify-center uppercase tracking-wider cta-fx"
           >
             QUERO MINHAS 50 FIGURINHAS
-          </a>
+          </button>
           <p className="mt-4 text-xs text-muted-foreground">Personalize no Canva gratuito e baixe quantas vezes precisar.</p>
         </div>
       </section>
@@ -245,12 +246,12 @@ function LandingPage() {
                   </div>
                   <div className="mt-2 text-xs text-muted-foreground">Pagamento único.</div>
                 </div>
-                <a
-                  href="https://pay.cakto.com.br/fj79seh_973428"
+                <button
+                  type="button"
                   className="btn-primary mt-6 inline-flex items-center justify-center uppercase tracking-wider cta-fx w-full"
                 >
                   OFERTA COMPLETA
-                </a>
+                </button>
                 <p className="mt-3 w-full text-center text-xs text-muted-foreground">Receba o acesso após a confirmação da compra.</p>
               </div>
             </div>
@@ -313,13 +314,7 @@ function LandingPage() {
 
           <div className="mx-auto my-10 h-px w-full max-w-xl" style={{ backgroundColor: "#FFFFFF", opacity: 0.1 }} />
 
-          <nav className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-10" style={{ fontSize: "14px" }}>
-            <a href="/politica-de-privacidade" className="footer-link" style={{ color: "#FFFFFF", transition: "color 0.2s" }}>Política de Privacidade</a>
-            <a href="/termos-de-uso" className="footer-link" style={{ color: "#FFFFFF", transition: "color 0.2s" }}>Termos de Uso</a>
-            <a href="/politica-de-reembolso" className="footer-link" style={{ color: "#FFFFFF", transition: "color 0.2s" }}>Política de Reembolso</a>
-          </nav>
         </div>
-        <style>{`.footer-link:hover{color:#FFFFFF !important;}`}</style>
       </footer>
 
       {showUpsell && (
@@ -389,19 +384,20 @@ function LandingPage() {
 
               {/* Botões */}
               <div className="mt-5 sm:mt-6 flex flex-col gap-2.5 sm:gap-3">
-                <a
-                  href="https://pay.cakto.com.br/zftygb8"
+                <button
+                  type="button"
                   className="btn-primary w-full inline-flex items-center justify-center uppercase tracking-wider"
                 >
                   SIM, QUERO APROVEITAR O UPGRADE
-                </a>
-                <a
-                  href="https://pay.cakto.com.br/nvc9952"
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setShowUpsell(false)}
                   className="w-full inline-flex items-center justify-center rounded-[16px] bg-white px-6 py-3 text-sm font-medium transition hover:bg-[#F5F8FC]"
                   style={{ border: "1px solid var(--border)", color: "var(--text)" }}
                 >
                   Não, quero somente a Oferta Simples
-                </a>
+                </button>
               </div>
             </div>
           </div>

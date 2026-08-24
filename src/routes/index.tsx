@@ -106,7 +106,7 @@ function LandingPage() {
             50 Figurinhas Eleitorais Prontas Para <span className="highlight">Personalizar no Canva</span> e Usar no WhatsApp <span className="highlight">Ainda Hoje</span>
           </h1>
           <p className="mt-6 max-w-2xl text-muted-foreground text-[15px] leading-[1.6] sm:text-[17px] md:text-lg text-pretty px-4 sm:px-0">
-            Troque foto, nome, número, partido, cores e textos pelo Canva gratuito e tenha um pack personalizado para sua comunicação eleitoral — sem precisar criar cada figurinha do zero.
+            Troque foto, nome, número, partido, cores e textos pelo Canva gratuito e tenha um pack personalizado para sua comunicação eleitoral sem precisar criar cada figurinha do zero.
           </p>
           <ul className="mt-4 flex flex-col items-start gap-2 text-left text-muted-foreground text-[15px] leading-[1.5] sm:text-[16px] px-4 sm:px-0 sm:mx-auto">
             <li>✅ 50 modelos</li>

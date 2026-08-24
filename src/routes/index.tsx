@@ -203,7 +203,7 @@ function LandingPage() {
                 <li className="flex items-center gap-2 py-2"><span>✅</span> <span>Edição pelo Canva gratuito</span></li>
               </ul>
               <div className="mt-6 w-full text-center">
-                <div className="text-sm line-through decoration-2" style={{ textDecorationColor: "var(--price-strike)" }}>De R$ 29,90</div>
+                <div className="text-sm line-through decoration-2" style={{ color: "var(--destructive)", textDecorationColor: "var(--destructive)" }}>De R$ 29,90</div>
                 <div className="text-sm font-bold">Hoje por</div>
                 <div className="whitespace-nowrap">
                   <span className="text-4xl font-bold text-primary">R$ 9,90</span>
@@ -238,7 +238,7 @@ function LandingPage() {
                   <li className="flex items-center gap-2 py-2"><span>✅</span> <span>Suporte pelo WhatsApp</span></li>
                 </ul>
                 <div className="mt-6 w-full text-center">
-                  <div className="text-sm line-through decoration-2" style={{ textDecorationColor: "var(--price-strike)" }}>Valor percebido: R$ 69,60</div>
+                  <div className="text-sm line-through decoration-2" style={{ color: "var(--destructive)", textDecorationColor: "var(--destructive)" }}>Valor percebido: R$ 69,60</div>
                   <div className="text-sm font-bold">Hoje por apenas</div>
                   <div className="whitespace-nowrap">
                     <span className="text-4xl font-bold text-primary">R$ 19,90</span>

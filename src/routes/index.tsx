@@ -16,7 +16,7 @@ import bonus1Img from "@/assets/bonus-01.png.asset.json";
 import bonus2Img from "@/assets/bonus-02.png.asset.json";
 import bonus3Img from "@/assets/bonus-03.png.asset.json";
 import guaranteeBadge from "@/assets/7-dias-garantia.png.asset.json";
-import heroMockup from "@/assets/hero-figurinhas.png.asset.json";
+import heroMockup from "@/assets/hero-figurinhas-v2.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({

@@ -231,9 +231,9 @@ function LandingPage() {
                   <li className="flex items-center gap-2 py-2"><span>✅</span> <span>Modelos 100% editáveis</span></li>
                   <li className="flex items-center gap-2 py-2"><span>✅</span> <span>Canva gratuito</span></li>
                   <li className="flex items-center gap-2 py-2"><span>✅</span> <span>Acesso vitalício</span></li>
-                  <li className="flex items-center gap-2 py-2"><span>🎁</span> <span>Pack de Frases Eleitorais <span className="text-xs line-through" style={{ textDecorationColor: "var(--price-strike)" }}>(R$ 9,90)</span></span></li>
-                  <li className="flex items-center gap-2 py-2"><span>🎁</span> <span>Guia de Personalização Rápida <span className="text-xs line-through" style={{ textDecorationColor: "var(--price-strike)" }}>(R$ 9,90)</span></span></li>
-                  <li className="flex items-center gap-2 py-2"><span>🎁</span> <span>Novas Figurinhas Eleitorais <span className="text-xs line-through" style={{ textDecorationColor: "var(--price-strike)" }}>(R$ 19,90)</span></span></li>
+                  <li className="flex items-center gap-2 py-2"><span>🎁</span> <span>Bônus 01&nbsp;<span className="text-xs line-through" style={{ textDecorationColor: "var(--price-strike)" }}>(R$ 9,90)</span></span></li>
+                  <li className="flex items-center gap-2 py-2"><span>🎁</span> <span>Bônus 02&nbsp;<span className="text-xs line-through" style={{ textDecorationColor: "var(--price-strike)" }}>(R$ 9,90)</span></span></li>
+                  <li className="flex items-center gap-2 py-2"><span>🎁</span> <span>Bônus 03&nbsp;<span className="text-xs line-through" style={{ textDecorationColor: "var(--price-strike)" }}>(R$ 19,90)</span></span></li>
                   <li className="flex items-center gap-2 py-2"><span>✅</span> <span>Atualizações</span></li>
                   <li className="flex items-center gap-2 py-2"><span>✅</span> <span>Suporte pelo WhatsApp</span></li>
                 </ul>

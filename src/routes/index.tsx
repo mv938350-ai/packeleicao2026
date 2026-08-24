@@ -4,14 +4,14 @@ import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import mod01 from "@/assets/mod-01.jpg";
 import mod02 from "@/assets/mod-02.jpg";
 import mod03 from "@/assets/mod-03.jpg";
-import depo1 from "@/assets/depo-1.png.asset.json";
-import depo2 from "@/assets/depo-2.png.asset.json";
-import depo3 from "@/assets/depo-3.png.asset.json";
-import depo4 from "@/assets/depo-4.png.asset.json";
-import depo5 from "@/assets/depo-5.png.asset.json";
-import depo6 from "@/assets/depo-6.png.asset.json";
-import depo7 from "@/assets/depo-7.png.asset.json";
-import depo8 from "@/assets/depo-8.png.asset.json";
+import depo1 from "@/assets/prova-1.jpg.asset.json";
+import depo2 from "@/assets/prova-2.jpg.asset.json";
+import depo3 from "@/assets/prova-3.jpg.asset.json";
+import depo4 from "@/assets/prova-4.jpg.asset.json";
+import depo5 from "@/assets/prova-5.jpg.asset.json";
+import depo6 from "@/assets/prova-6.jpg.asset.json";
+import depo7 from "@/assets/prova-7.jpg.asset.json";
+
 import bonus1Img from "@/assets/bonus-01.png.asset.json";
 import bonus2Img from "@/assets/bonus-02.png.asset.json";
 import bonus3Img from "@/assets/bonus-03.png.asset.json";
@@ -76,7 +76,7 @@ const faqs = [
   { q: "Qual a diferença entre a Oferta Simples e a Completa?", a: "A Oferta Simples entrega o pack principal com as 50 figurinhas e acesso vitalício ao material adquirido. A Oferta Completa adiciona os 3 bônus, atualizações liberadas durante o período eleitoral e suporte pelo WhatsApp para questões de acesso e edição." },
 ];
 
-const testimonials = [depo1.url, depo2.url, depo3.url, depo4.url, depo5.url, depo6.url, depo7.url, depo8.url];
+const testimonials = [depo1.url, depo2.url, depo3.url, depo4.url, depo5.url, depo6.url, depo7.url];
 
 function LandingPage() {
   const [showUpsell, setShowUpsell] = useState(false);

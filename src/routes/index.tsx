@@ -182,7 +182,7 @@ function LandingPage() {
                 <div className="mt-4 text-sm font-semibold highlight">{b.tag}</div>
                 <h3 className="mt-2 text-xl md:text-3xl font-semibold">{b.title}</h3>
                 <p className="mt-3 text-muted-foreground" style={{ fontSize: "16px", lineHeight: "24px" }}>{b.desc}</p>
-                <div className="mt-4 text-sm font-semibold">Valor: <span className="line-through decoration-2" style={{ color: "var(--price-strike)", textDecorationColor: "var(--price-strike)" }}>{b.value}</span></div>
+                <div className="mt-4 text-sm font-semibold">Valor: <span className="line-through decoration-2" style={{ color: "var(--destructive)", textDecorationColor: "var(--destructive)" }}>{b.value}</span></div>
               </div>
             ))}
           </div>

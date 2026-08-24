@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
-import mod01 from "@/assets/mod-01.jpg";
+import mod01 from "@/assets/mod-01.png.asset.json";
 import mod02 from "@/assets/mod-02.jpg";
 import mod03 from "@/assets/mod-03.jpg";
 import depo1 from "@/assets/prova-1.jpg.asset.json";

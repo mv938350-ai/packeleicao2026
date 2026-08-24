@@ -76,7 +76,7 @@ const faqs = [
   { q: "Qual a diferença entre a Oferta Simples e a Completa?", a: "A Oferta Simples entrega o pack principal com as 50 figurinhas e acesso vitalício ao material adquirido. A Oferta Completa adiciona os 3 bônus, atualizações liberadas durante o período eleitoral e suporte pelo WhatsApp para questões de acesso e edição." },
 ];
 
-const testimonials = [depo1.url, depo2.url, depo3.url, depo4.url, depo5.url, depo6.url, depo7.url, depo8.url];
+const testimonials = [depo1.url, depo2.url, depo3.url, depo4.url, depo5.url, depo6.url, depo7.url];
 
 function LandingPage() {
   const [showUpsell, setShowUpsell] = useState(false);

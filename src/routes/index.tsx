@@ -213,7 +213,7 @@ function LandingPage() {
               <button
                 type="button"
                 onClick={() => setShowUpsell(true)}
-                className="btn-secondary mt-6 inline-flex items-center justify-center uppercase tracking-wider w-full"
+                className="btn-simple mt-6 inline-flex items-center justify-center uppercase tracking-wider w-full"
               >
                 OFERTA SIMPLES
               </button>

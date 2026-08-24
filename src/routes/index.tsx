@@ -83,7 +83,7 @@ function LandingPage() {
   return (
     <div className="min-h-screen bg-background text-foreground">
 
-      <TopBar className="bg-[#4A2E1F] text-[#FBF7F2]" />
+      <TopBar className="bg-[#061A32] text-white" />
 
 
       {/* Hero */}
@@ -194,7 +194,7 @@ function LandingPage() {
         <div className="mx-auto max-w-5xl">
           <h2 className="text-center font-semibold" style={{ fontSize: "24px", lineHeight: "1.2" }}>Escolha como você quer começar</h2>
           <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="rounded-[14px] border border-border bg-[#FFFDFC] p-8 flex flex-col items-start text-left shadow-sm">
+            <div className="rounded-[14px] border border-border bg-white p-8 flex flex-col items-start text-left shadow-sm">
               <h3 className="text-2xl font-bold w-full text-center">Oferta Simples</h3>
               <p className="mt-4 font-semibold w-full text-center">Pack de Figurinhas Eleitoral</p>
               <ul className="mt-2 divide-y divide-border text-muted-foreground w-full">
@@ -294,11 +294,11 @@ function LandingPage() {
       </section>
 
       {/* Fade transition to footer */}
-      <div aria-hidden className="h-16 w-full" style={{ background: "linear-gradient(to bottom, transparent, #1A1A1A)" }} />
+      <div aria-hidden className="h-16 w-full" style={{ background: "linear-gradient(to bottom, transparent, #061A32)" }} />
 
       <footer
         className="w-full"
-        style={{ backgroundColor: "#1A1A1A", color: "#B8B8B8", paddingTop: "60px", paddingBottom: "60px" }}
+        style={{ backgroundColor: "#061A32", color: "rgba(255,255,255,0.72)", paddingTop: "60px", paddingBottom: "60px" }}
       >
         <div className="mx-auto max-w-3xl px-6 text-center" style={{ fontSize: "15px", lineHeight: "1.75" }}>
           <p className="mb-5 md:mb-6">
@@ -314,9 +314,9 @@ function LandingPage() {
           <div className="mx-auto my-10 h-px w-full max-w-xl" style={{ backgroundColor: "#FFFFFF", opacity: 0.1 }} />
 
           <nav className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-10" style={{ fontSize: "14px" }}>
-            <a href="/politica-de-privacidade" className="footer-link" style={{ color: "var(--gold)", transition: "color 0.2s" }}>Política de Privacidade</a>
-            <a href="/termos-de-uso" className="footer-link" style={{ color: "var(--gold)", transition: "color 0.2s" }}>Termos de Uso</a>
-            <a href="/politica-de-reembolso" className="footer-link" style={{ color: "var(--gold)", transition: "color 0.2s" }}>Política de Reembolso</a>
+            <a href="/politica-de-privacidade" className="footer-link" style={{ color: "#FFFFFF", transition: "color 0.2s" }}>Política de Privacidade</a>
+            <a href="/termos-de-uso" className="footer-link" style={{ color: "#FFFFFF", transition: "color 0.2s" }}>Termos de Uso</a>
+            <a href="/politica-de-reembolso" className="footer-link" style={{ color: "#FFFFFF", transition: "color 0.2s" }}>Política de Reembolso</a>
           </nav>
         </div>
         <style>{`.footer-link:hover{color:#FFFFFF !important;}`}</style>
@@ -330,7 +330,7 @@ function LandingPage() {
         >
           <div
             className="relative mx-auto my-auto w-[92vw] max-w-[420px] max-h-[90vh] overflow-y-auto overflow-x-hidden rounded-[17px] bg-background text-center shadow-xl animate-scale-in"
-            style={{ border: "1px solid var(--gold)" }}
+            style={{ border: "1px solid var(--border)" }}
             onClick={(e) => e.stopPropagation()}
           >
             <button
@@ -343,45 +343,45 @@ function LandingPage() {
             </button>
             {/* Cabeçalho */}
             <div className="px-5 py-4 sm:px-6 sm:py-5 text-white" style={{ background: "var(--brand)" }}>
-              <div className="text-xl sm:text-2xl font-bold tracking-wide" style={{ color: "#4A2E1F" }}>🎁 ESPERA! ANTES DE FICAR APENAS COM O PACK...</div>
-              <div className="mt-1 text-[13px] sm:text-sm font-medium" style={{ color: "#4A2E1F", opacity: 0.9 }}>
+              <div className="text-xl sm:text-2xl font-bold tracking-wide" style={{ color: "#FFFFFF" }}>🎁 ESPERA! ANTES DE FICAR APENAS COM O PACK...</div>
+              <div className="mt-1 text-[13px] sm:text-sm font-medium" style={{ color: "#FFFFFF", opacity: 0.9 }}>
                 Por mais R$ 10, leve a Oferta Completa
               </div>
             </div>
 
             <div className="px-[18px] pt-5 pb-7 sm:px-6 sm:py-6 text-left">
               {/* Texto */}
-              <p className="text-[14px] sm:text-[15px] leading-[1.6]" style={{ color: "#4A2F26" }}>
+              <p className="text-[14px] sm:text-[15px] leading-[1.6]" style={{ color: "var(--text)" }}>
                 Você já vai levar as <strong>50 figurinhas</strong>.
               </p>
-              <p className="mt-2.5 text-[14px] sm:text-[15px] leading-[1.6]" style={{ color: "#4A2F26" }}>
+              <p className="mt-2.5 text-[14px] sm:text-[15px] leading-[1.6]" style={{ color: "var(--text)" }}>
                 <strong>Mas adicionando apenas R$ 10, você também desbloqueia os 3 bônus, recebe as atualizações liberadas durante o período eleitoral e ainda conta com suporte pelo WhatsApp para acesso e edição.</strong>
               </p>
-              <p className="mt-2.5 text-[14px] sm:text-[15px] leading-[1.6]" style={{ color: "#4A2F26" }}>
+              <p className="mt-2.5 text-[14px] sm:text-[15px] leading-[1.6]" style={{ color: "var(--text)" }}>
                 Oferta Completa com tudo incluído:
               </p>
 
               {/* Checklist */}
-              <ul className="mt-4 space-y-2 rounded-[12px] bg-white p-3 sm:p-4 text-[15px] sm:text-[14px]" style={{ border: "1px solid #EFE5DB", color: "#4A2F26" }}>
-                <li className="flex items-start gap-2"><span style={{ color: "#16a34a" }}>✔</span><span>50 figurinhas editáveis</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#16a34a" }}>✔</span><span>Acesso vitalício ao material adquirido</span></li>
+              <ul className="mt-4 space-y-2 rounded-[12px] bg-white p-3 sm:p-4 text-[15px] sm:text-[14px]" style={{ border: "1px solid var(--border)", color: "var(--text)" }}>
+                <li className="flex items-start gap-2"><span style={{ color: "#10A94B" }}>✔</span><span>50 figurinhas editáveis</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#10A94B" }}>✔</span><span>Acesso vitalício ao material adquirido</span></li>
                 <li className="flex items-start gap-2"><span>🎁</span><span>Pack de Frases Eleitorais</span></li>
                 <li className="flex items-start gap-2"><span>🎁</span><span>Guia de Personalização Rápida</span></li>
                 <li className="flex items-start gap-2"><span>🎁</span><span>Novas Figurinhas Eleitorais</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#16a34a" }}>✔</span><span>Atualizações durante o período eleitoral</span></li>
-                <li className="flex items-start gap-2"><span style={{ color: "#16a34a" }}>✔</span><span>Suporte pelo WhatsApp</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#10A94B" }}>✔</span><span>Atualizações durante o período eleitoral</span></li>
+                <li className="flex items-start gap-2"><span style={{ color: "#10A94B" }}>✔</span><span>Suporte pelo WhatsApp</span></li>
               </ul>
 
               {/* Selo + Preço */}
               <div className="mt-5 sm:mt-6 flex flex-col items-center">
                 <span
-                  className="inline-block rounded-full px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-white"
-                  style={{ background: "#D6A54C" }}
+                  className="inline-block rounded-full px-3 py-1 text-[10px] font-bold uppercase tracking-widest"
+                  style={{ background: "#F5B82E", color: "#061A32" }}
                 >
                   Upgrade Especial
                 </span>
-                <div className="mt-3 text-xs line-through" style={{ color: "#A0857A" }}>De R$ 19,90</div>
-                <div className="text-sm font-semibold" style={{ color: "#4A2F26" }}>Upgrade especial</div>
+                <div className="mt-3 text-xs line-through" style={{ color: "#8A96A6" }}>De R$ 19,90</div>
+                <div className="text-sm font-semibold" style={{ color: "var(--text)" }}>Upgrade especial</div>
                 <div className="mt-1 text-[44px] sm:text-5xl font-extrabold leading-none" style={{ color: "var(--brand)" }}>
                   R$ 14,90
                 </div>
@@ -397,8 +397,8 @@ function LandingPage() {
                 </a>
                 <a
                   href="https://pay.cakto.com.br/nvc9952"
-                  className="w-full inline-flex items-center justify-center rounded-[16px] bg-white px-6 py-3 text-sm font-medium transition hover:bg-[#F7EFE7]"
-                  style={{ border: "1px solid #D8C7BA", color: "#5E4A42" }}
+                  className="w-full inline-flex items-center justify-center rounded-[16px] bg-white px-6 py-3 text-sm font-medium transition hover:bg-[#F5F8FC]"
+                  style={{ border: "1px solid var(--border)", color: "var(--text)" }}
                 >
                   Não, quero somente a Oferta Simples
                 </a>

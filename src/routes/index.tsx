@@ -39,6 +39,11 @@ export const Route = createFileRoute("/")({
 });
 
 const ASSET = "https://protocolopele7d.lovable.app/__l5e/assets-v1";
+const CHECKOUT = {
+  simple: "https://pay.cakto.com.br/c8eog5q",
+  popup: "https://pay.cakto.com.br/oep765j",
+  complete: "https://pay.cakto.com.br/9BknMKb",
+};
 const IMG = {
   hero: `/images/mockup-saches-rgba-v6.webp`,
   wpp1: `${ASSET}/dc6d13b6-3101-4394-9588-205e7818450d/whatsapp-print.webp`,
@@ -246,12 +251,12 @@ function LandingPage() {
                   </div>
                   <div className="mt-2 text-xs text-muted-foreground">Pagamento único.</div>
                 </div>
-                <button
-                  type="button"
+                <a
+                  href={CHECKOUT.complete}
                   className="btn-primary mt-6 inline-flex items-center justify-center uppercase tracking-wider cta-fx w-full"
                 >
                   OFERTA COMPLETA
-                </button>
+                </a>
                 <p className="mt-3 w-full text-center text-xs text-muted-foreground">Receba o acesso após a confirmação da compra.</p>
               </div>
             </div>
@@ -390,20 +395,19 @@ function LandingPage() {
 
               {/* Botões */}
               <div className="mt-5 sm:mt-6 flex flex-col gap-2.5 sm:gap-3">
-                <button
-                  type="button"
+                <a
+                  href={CHECKOUT.popup}
                   className="btn-primary w-full inline-flex items-center justify-center uppercase tracking-wider"
                 >
                   SIM, QUERO APROVEITAR O UPGRADE
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setShowUpsell(false)}
+                </a>
+                <a
+                  href={CHECKOUT.simple}
                   className="w-full inline-flex items-center justify-center rounded-[16px] bg-white px-6 py-3 text-sm font-medium transition hover:bg-[#F5F8FC]"
                   style={{ border: "1px solid var(--border)", color: "var(--text)" }}
                 >
                   Não, quero somente a Oferta Simples
-                </button>
+                </a>
               </div>
             </div>
           </div>
